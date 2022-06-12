@@ -1,0 +1,56 @@
+/*----------------------common-------------------------*/
+*{ margin:0; padding:0; font-family:Microsoft YaHei;}
+.clear{ clear:both;}
+.fl{ float:left;}
+.fr{ float:right;}
+img{ border:none;}
+a{ text-decoration:none;}
+a:hover{ text-decoration:underline;}
+li{ list-style-type:none;}
+.ofh{overflow:hidden;}
+.center{ text-align:center;}
+.em{ text-indent:2em;}
+.p5{ padding:5px;}
+.pl50{ padding-left:50px;}
+body{
+	background-attachment: fixed;
+	background-image: url(../images/bj.jpg);
+	background-repeat:no-repeat;
+	background-position: center top;
+}
+
+/*----------------------con-------------------------*/
+.con{ width:960px; padding:20px; height:auto; margin:10px auto; background:#fff; background-color:rgba(255,255,255,0.8);-moz-border-radius:10px;border-radius:10px;}
+/*----------------head-----------------*/
+.head{
+	width: 960px;
+	height: auto;
+	margin: auto;
+}
+.logo{ width:550px; height:60px;}
+.logo h1{
+	font-size: 36px;
+	line-height: 60px;
+	color: #508ADE;
+	font-family: "仿宋";
+}
+.nav{
+	width: 960px;
+	height: 40px;
+	margin: 5px auto;
+	background-color: #2A4DAB;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.nav ul{ padding-left:30px;}
+.nav li{ float:left; padding:5px;margin: 0 15px;}
+.nav li a{ font-size:20px; line-height:30px; color:#fff;}
+.nav li a:hover{ color:#fff; text-decoration:none;}
+.nav li:hover{ background-color:#f97255;}
+.nav li:hover a{
+	font-size: 20px;
+}
+
+.lunbo{ width:960px; height:350px; margin:5px auto; overflow:hidden;-moz-border-radius:5px;border-radius:5px;}
+/*----------------main-----------------*/
+.main{ width:960px; height:auto; margin:10px auto; font-size:14px; line-height:24px; color:#555;}
